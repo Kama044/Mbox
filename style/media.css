@@ -1,0 +1,188 @@
+@media(max-width:1150px){
+    .shows__cards{
+        max-width: 650px;
+        width: 100%;
+        overflow: scroll;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;
+    }
+    .shows__card{
+        width: 160px;
+    }
+    .shows__title , .films__title , .genres__title{
+        font-size: 24px;
+    }
+    .genres__cards , .actors__cards{
+        width: 560px;
+        overflow: scroll;
+        margin: 0 auto;
+    }
+    .ducks{
+        max-width: 1000px;
+    }
+    .footer__lists{
+        max-width: 500px;
+        overflow: scroll;
+    }
+}
+@media(max-width:1030px){
+    .ducks{
+        max-width: 830px;
+    }
+    .footer__logo{
+        width: 140px;
+    }
+    .register{
+        max-width: 810px;
+    }
+}
+@media(max-width:850px){
+    .nav__logo{
+        width: 120px;
+    }
+    .nav__imgs{
+        gap: 40px;
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+    .close{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+    .nav__list{
+        position: absolute;
+        flex-direction: column;
+        background-color: #000;
+        left: -200px;
+        top: 0;
+        padding: 50px;
+        align-items: center;
+        gap: 30px;
+        height: 100%;
+        z-index: 99;
+        transition: 0.5s;
+    }
+    #inp:checked ~ .nav__list{
+        left: 0;
+    }
+    .header{
+        position: relative;
+        overflow: hidden;
+    }
+    .watch__title{
+        font-size: 90px;
+        margin-bottom: 30px;
+    }
+    .watch__btns{
+        margin-top: 30px;
+    }
+    .nav__imgs{
+        margin-right: 30px;
+    }
+    .watch{
+        margin-top: 60px;
+    }
+    .line{
+        margin-top: 35px;
+    }
+    .shows__cards{
+        gap: 20px;
+        max-width: 300px;
+        width: 100%;
+    }
+    .shows__card{
+        width: 140px;
+    }
+    .shows__title , .films__title , .genres__title{
+        font-size: 20px;
+    }
+    .genres__cards , .actors__cards{
+        width: 430px;
+    }
+    .genres__card{
+        width: 215px;
+    }
+    .actors__card , .actors__card img{
+        width: 145px;
+    }
+    .ducks{
+        max-width: 580px;
+    }
+    .register{
+        max-width: 560px;
+    }
+    .footer__logo{
+        width: 120px;
+    }
+}
+@media(max-width:600px){
+    .nav__logo{
+        width: 80px;
+    }
+    .nav__lonu{
+        gap: 20px;
+    }
+    .watch__title{
+        font-size: 90px;
+        margin-bottom: 20px;
+    }
+    .watch__btns{
+        margin-top: 20px;
+    }
+    .nav__imgs{
+        margin-right: 20px;
+    }
+    .watch{
+        margin-top: 40px;
+    }
+    .line{
+        margin-top: 20px;
+    }
+    .shows__title , .films__title , .genres__title{
+        font-size: 16px;
+    }
+    .genres__card{
+        width: 180px;
+    }
+    .genres__cards , .actors__cards{
+        width: 400px;
+    }
+    .actors__card img{
+        width: 130px;
+    }
+    .ducks{
+        max-width: 430px;
+    }
+    .register{
+        max-width: 410px;
+    }
+    .footer__logo{
+        width: 100px;
+    }
+}
+@media(max-width:450px){
+    .genres__cards , .actors__cards{
+        width: 300px;
+    }
+    .genres__card{
+        width: 155px;
+    }
+    .actors__card img{
+        width: 120px;
+    }
+    .ducks{
+        max-width: 300px;
+    }
+    .register{
+        max-width: 280px;
+    }
+    .footer__logo{
+        width: 95px;
+    }
+}
